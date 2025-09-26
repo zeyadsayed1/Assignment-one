@@ -97,7 +97,7 @@
               <li>architect scalabe solutions</li>
             </ul>
           </td>
-          <td>Jan 2023 - Presrnt</td>
+          <td>Jan 2023 - Present</td>
         </tr>
         <tr>
           <td>Full Stack Developer</td>
@@ -162,7 +162,7 @@
       you!
     </p>
     <br>
-    <form>
+    <form method="post">
       <fieldset>
         <legend>Personnal information</legend>
         <table style="width: 100%">
@@ -171,11 +171,11 @@
               <td>
                 <label for="Fname">First Name:*</label>
               </td>
-              <td><input required id="Fname" type="text" ></td>
+              <td><input required id="Fname" name="Fname" type="text" ></td>
               <td>
                 <label for="Lname">last Name:*</label>
               </td>
-              <td><input required id="Lname" type="text" ></td>
+              <td><input required id="Lname"  name="Lname" type="text" ></td>
             </tr>
           </thead>
           <tbody>
@@ -183,22 +183,22 @@
               <td>
                 <label for="Eaddress">Email Address:*</label>
               </td>
-              <td><input required id="Eaddress" type="email" ></td>
+              <td><input required id="Eaddress" name="Eaddress" type="email" ></td>
               <td>
                 <label for="Phnum">Phone Number:</label>
               </td>
-              <td><input id="Phnum" type="tel" ></td>
+              <td><input id="Phnum" name="Phnum" type="tel" ></td>
             </tr>
           </tbody>
           <tfoot>
            <tr> <td>
               <label for="PfDate">Preferred Meeting Date:</label>
             </td>
-            <td><input id="PfDate" type="date" ></td>
+            <td><input id="PfDate" name="PfDate" type="date" ></td>
             <td>
               <label for="Btime">Best Time To contact:</label>
             </td>
-            <td><input id="Btime" type="time" ></td></tr>
+            <td><input id="Btime" name="Btime" type="time" ></td></tr>
           </tfoot>
         </table>
       </fieldset>
@@ -211,14 +211,14 @@
       <td>
         <label for="Ptype">Project Type:*</label>
       </td>
-      <td><input id="Ptype" type="text" required></td>
+      <td><input id="Ptype" name="Ptype" type="text" required></td>
       <td>
         <label for="Pdescrip">Project Description:*</label>
       </td>
       <td>
         <textarea
           required
-          name="Project Description"
+          name="Pdescrip"
           id="Pdescrip"
         ></textarea>
       </td>
